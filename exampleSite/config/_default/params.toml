@@ -18,7 +18,13 @@ enable = true
 label = "Get Started"
 link = "contact"
 
-  
+# Map longitude and latitude
+[contact_map]
+lon = "0"
+lat = "0"
+zoom = "11"
+marker_popup_text = "<b>Hello folks!</b><br />We are here."
+
 ############################# social site ########################
 [[social]]
 title = "facebook"
